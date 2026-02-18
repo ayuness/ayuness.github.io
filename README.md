@@ -1,4 +1,4 @@
-# Hi — I'm Adolfo Yunes Silva 👋
+#I'm Adolfo Yunes Silva 
 
 I’m a dedicated Data Science student at ITAM (Mexico City), graduating December 2026. I combine strong analytical foundations, programming skills, and a teamwork-first mindset to turn data into actionable insights. I’m motivated, reliable, and prepared to put in extra effort to meet project goals — especially in areas that bridge economics, finance and sports analytics.
 
@@ -38,21 +38,10 @@ _I focus on building robust, reproducible workflows that produce clear visualiza
 - Certificate in Advanced English (CAE) — Cambridge
 - Entrepreneurship: Theory and Practice — UCL Summer School
 
----
-
-## 🔭 Currently working on
-
-- Building and refining a portfolio of data science projects (Python, SQL, ML pipelines).
-- Improving interactive visualizations using Tableau and Shiny.
-- Preparing applied analyses focused on economics and financial markets.
-
-If you'd like to see code snippets or project write-ups, check the pinned repos on my profile or reach out — I’ll be happy to share more details.
-
----
 
 ## 🤝 How I work
 
-- Team player: I enjoy collaborating with researchers, engineers and domain experts to shape the right questions.
+- Team player: I enjoy collaborating with researchers, engineers and domain experts to shape the right questions. Always openminded and looking for learning from every interaction
 - Detail-oriented: I validate assumptions, test models, and document decisions to ensure reproducibility.
 - Results-driven: I prioritize work that leads to measurable impact and clearer decision-making.
 
