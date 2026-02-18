@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="gs" x1="0" x2="1">
+      <stop offset="0" stop-color="#34d399"/>
+      <stop offset="1" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#f0fdf4"/>
+  <g transform="translate(60,40)">
+    <rect width="480" height="320" rx="12" fill="url(#gs)" opacity="0.14"/>
+    <text x="240" y="170" fill="#0b1220" font-size="20" font-family="Inter, Arial, sans-serif" text-anchor="middle">Sports Analytics</text>
+  </g>
+</svg>

@@ -50,8 +50,8 @@ document.addEventListener('DOMContentLoaded', function(){
       const name = encodeURIComponent(form.name.value.trim());
       const email = encodeURIComponent(form.email.value.trim());
       const message = encodeURIComponent(form.message.value.trim());
-      const subject = encodeURIComponent('Contacto desde portfolio — ' + (name||'Interesado'));
-      const body = encodeURIComponent(`Nombre: ${decodeURIComponent(name)}%0D%0AEmail: ${decodeURIComponent(email)}%0D%0A%0D%0A${decodeURIComponent(message)}`);
+  const subject = encodeURIComponent('Contact from portfolio — ' + (name||'Interested'));
+  const body = encodeURIComponent(`Name: ${decodeURIComponent(name)}%0D%0AEmail: ${decodeURIComponent(email)}%0D%0A%0D%0A${decodeURIComponent(message)}`);
       // Open default mail client
       window.location.href = `mailto:adolfoyunes1@gmail.com?subject=${subject}&body=${body}`;
     })

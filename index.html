@@ -5,12 +5,12 @@
   Sections: Hero, About, Experience, Education, Skills, Projects, Interests, Contact
   Replace the avatar at assets/avatar.svg with your professional photo (square, centered)
 -->
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Adolfo Yunes Silva — Data Science Student | ITAM</title>
-  <meta name="description" content="Portfolio de Adolfo Yunes Silva — Data Science Student en ITAM. Data Science, Analytics, Machine Learning, Visualización de datos." />
+  <meta name="description" content="Portfolio of Adolfo Yunes Silva — Data Science student at ITAM. Machine Learning, Analytics, Data Visualization." />
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -50,8 +50,8 @@
           <p class="title">Data Science Student | ITAM</p>
           <p class="tagline">Turning data into clear insights to inform decisions in economics, finance and sports.</p>
           <div class="hero-cta">
-            <a href="#projects" class="btn">Ver proyectos</a>
-            <a href="#contact" class="btn btn-outline">Contáctame</a>
+            <a href="#projects" class="btn">View projects</a>
+            <a href="#contact" class="btn btn-outline">Contact me</a>
           </div>
           <ul class="meta">
             <li><i class="fa-solid fa-location-dot"></i> Mexico City</li>
@@ -62,7 +62,7 @@
         <div class="hero-right">
           <!-- Circular avatar placeholder -->
           <div class="avatar-wrap">
-            <img src="assets/avatar.svg" alt="Avatar de Adolfo Yunes" class="avatar" />
+            <img src="assets/avatar.svg" alt="Avatar of Adolfo Yunes" class="avatar" />
           </div>
         </div>
       </div>
@@ -72,7 +72,14 @@
     <section id="about" class="section reveal">
       <div class="container">
         <h2>About Me</h2>
-        <p class="lead">Soy estudiante de Data Science en ITAM con interés en el análisis económico y de mercados financieros. Tengo experiencia como Pre-University Program Assistant en ITAM, y me especializo en construir soluciones basadas en datos mediante Python, SQL, y técnicas de machine learning. Busco oportunidades donde pueda aplicar análisis cuantitativos, visualización de datos y modelado estadístico para aportar insights accionables.</p>
+        <p class="lead">I am a Data Science student at ITAM with an interest in economic and financial markets analysis. I worked as a Pre-University Program Assistant at ITAM, and I specialize in building data-driven solutions with Python, SQL, and machine learning techniques. I seek opportunities to apply quantitative analysis, data visualization and statistical modeling to deliver actionable insights.</p>
+
+        <!-- Small photo gallery under About -->
+        <div class="about-gallery">
+          <img src="assets/about-1.svg" alt="About image 1" class="about-photo" />
+          <img src="assets/about-2.svg" alt="About image 2" class="about-photo" />
+          <img src="assets/about-3.svg" alt="About image 3" class="about-photo" />
+        </div>
       </div>
     </section>
 
@@ -87,7 +94,7 @@
               <span class="muted">ITAM — Feb 2024 - Nov 2024</span>
             </div>
             <div class="card-body">
-              <p>Asistí en la organización y entrega de contenido académico y apoyo pedagógico para programas preuniversitarios. Colaboré con profesores y estudiantes, ayudando a preparar materiales y sesiones prácticas enfocadas en análisis cuantitativo.</p>
+              <p>Assisted in organizing and delivering academic content and pedagogical support for pre-university programs. Collaborated with faculty and students to prepare materials and practical sessions focused on quantitative analysis.</p>
             </div>
           </article>
         </div>
@@ -117,7 +124,7 @@
           <div class="timeline-item">
             <div class="timeline-date">2023</div>
             <div class="timeline-content">
-              <h3>Introduction to Data Science — Harvard X</h3>
+              <h3>Introduction to Data Science — HarvardX</h3>
             </div>
           </div>
 
@@ -158,7 +165,7 @@
     <section id="projects" class="section reveal">
       <div class="container">
         <h2>Projects</h2>
-        <p class="muted">Espacio para 2-3 proyectos. Puedes reemplazar estos marcadores con enlaces a tus repositorios, descripciones y capturas de pantalla.</p>
+        <p class="muted">Placeholder for 2-3 projects. Replace these cards with links to your repos, descriptions and screenshots.</p>
         <div class="project-grid">
           <div class="project-card">
             <div class="project-thumb"></div>
@@ -183,12 +190,24 @@
     <section id="interests" class="section reveal">
       <div class="container">
         <h2>Interests</h2>
-        <ul class="interests-list">
-          <li>Economics and Financial Markets Analysis</li>
-          <li>Politics</li>
-          <li>Sports Analytics</li>
-          <li>Personal Development and Leadership</li>
-        </ul>
+        <div class="interest-grid">
+          <div class="interest-card">
+            <img src="assets/interest-economics.svg" alt="Economics and Financial Markets" />
+            <p>Economics & Financial Markets</p>
+          </div>
+          <div class="interest-card">
+            <img src="assets/interest-politics.svg" alt="Politics" />
+            <p>Politics</p>
+          </div>
+          <div class="interest-card">
+            <img src="assets/interest-sports.svg" alt="Sports Analytics" />
+            <p>Sports Analytics</p>
+          </div>
+          <div class="interest-card">
+            <img src="assets/interest-development.svg" alt="Leadership and Personal Development" />
+            <p>Leadership & Personal Development</p>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -198,22 +217,22 @@
         <h2>Contact</h2>
         <div class="contact-grid">
           <form id="contact-form" class="contact-form">
-            <label for="name">Nombre</label>
+            <label for="name">Name</label>
             <input id="name" name="name" type="text" required />
 
             <label for="email">Email</label>
             <input id="email" name="email" type="email" required />
 
-            <label for="message">Mensaje</label>
+            <label for="message">Message</label>
             <textarea id="message" name="message" rows="5" required></textarea>
 
-            <button type="submit" class="btn">Enviar</button>
+            <button type="submit" class="btn">Send</button>
           </form>
 
           <aside class="contact-info">
-            <h3>Conéctate</h3>
+            <h3>Get in touch</h3>
             <p>Email: <a href="mailto:adolfoyunes1@gmail.com">adolfoyunes1@gmail.com</a></p>
-            <p>Tel: +52 55 3234 6610</p>
+            <p>Phone: +52 55 3234 6610</p>
             <p>LinkedIn: <a href="https://linkedin.com/in/adolfoyunes" target="_blank" rel="noopener">linkedin.com/in/adolfoyunes</a></p>
             <div class="socials">
               <a href="https://linkedin.com/in/adolfoyunes" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
