@@ -1,0 +1,55 @@
+# .gitignore
+# Recomendado para macOS y archivos de desarrollo comunes
+# Puedes editarlo según tus herramientas (Node, Python, editores, etc.)
+
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd/
+.TemporaryItems
+.VolumeIcon.icns
+
+## Windows
+Thumbs.db
+desktop.ini
+
+## Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*~
+
+## Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+## Environment files
+.env
+.env.local
+.env.*.local
+
+## Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+venv*/
+.pytest_cache/
+
+## Build / cache
+dist/
+build/
+.cache/
+
+## Logs
+*.log
