@@ -93,10 +93,10 @@ body{
 .contact-info{background:transparent}
 .socials{margin-top:1rem;display:flex;gap:.6rem}
 .socials a{font-size:1.2rem;color:var(--accent)}
-.contact-images img{width:44px;height:44px;object-fit:contain;border-radius:8px;box-shadow:var(--shadow)}
+.contact-images img{width:34px;height:34px;object-fit:contain;border-radius:6px;box-shadow:var(--shadow);background:#fff;padding:4px}
 
 @media (max-width:600px){
-  .contact-images img{width:36px;height:36px}
+  .contact-images img{width:28px;height:28px;padding:3px}
 }
 
 /* Footer */
@@ -125,24 +125,32 @@ body{
 }
 
 /* Interests row (smaller images, horizontal layout) */
-.interest-grid{display:flex;gap:1rem;align-items:flex-start;flex-wrap:wrap;margin-top:1rem}
-.interest-card{background:var(--card);padding:0.5rem;border-radius:12px;text-align:center;box-shadow:var(--shadow);display:flex;flex-direction:column;align-items:center;max-width:180px}
-.interest-card img{width:160px;height:96px;object-fit:cover;border-radius:8px}
-.interest-card p{margin:0.5rem 0 0;font-weight:600;font-size:0.95rem}
+.interest-grid{margin-top:1rem}
 
+/* Full-width horizontal stacked images: each card takes equal share and images cover the area */
+.full-width-rows{display:flex;gap:0;margin-left:-0.5rem;margin-right:-0.5rem}
+.full-width-rows .interest-card{flex:1 1 0;min-width:0;padding:0;border-radius:0;box-shadow:none}
+.full-width-rows .interest-card img{width:100%;height:340px;object-fit:cover;display:block}
+.full-width-rows .interest-card p{background:rgba(0,0,0,0.42);color:#fff;margin:0;padding:.75rem .9rem;font-weight:700;position:relative;top:-4px}
+
+@media (max-width:1000px){
+  .full-width-rows .interest-card img{height:260px}
+}
 @media (max-width:700px){
-  .interest-grid{justify-content:center}
-  .interest-card{max-width:140px}
-  .interest-card img{width:120px;height:72px}
+  .full-width-rows{flex-direction:column}
+  .full-width-rows .interest-card img{height:220px}
+  .full-width-rows .interest-card p{color:#0b1220;position:static;background:transparent;padding:0.6rem}
 }
 
-/* Soft skills */
-.soft-skills-grid{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:1rem}
-.soft-skill{background:var(--card);display:inline-flex;align-items:center;gap:.6rem;padding:.6rem .9rem;border-radius:999px;box-shadow:var(--shadow);font-weight:600}
-.soft-skill .skill-emoji{font-size:1.1rem}
-.soft-skill .skill-name{font-size:0.95rem}
+/* Soft skills (card/grid like Technical Skills) */
+.soft-skills-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1rem}
+.soft-skill{background:var(--card);padding:1rem;border-radius:12px;box-shadow:var(--shadow);display:flex;flex-direction:column;align-items:flex-start;gap:0.5rem}
+.soft-skill .skill-emoji{font-size:1.25rem}
+.soft-skill .skill-name{font-size:1rem;font-weight:700}
 
+@media (max-width:1000px){
+  .soft-skills-grid{grid-template-columns:repeat(2,1fr)}
+}
 @media (max-width:700px){
-  .soft-skills-grid{justify-content:center}
-  .soft-skill{padding:.5rem .75rem}
+  .soft-skills-grid{grid-template-columns:1fr}
 }

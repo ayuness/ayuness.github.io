@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="100%" height="100%" fill="#f3f6fb"/>
+  <g transform="translate(100,100)">
+    <rect width="1000" height="600" rx="18" fill="#e8eefb"/>
+    <text x="500" y="320" fill="#0b1220" font-size="36" font-family="Inter, Arial, sans-serif" text-anchor="middle">Machine Learning</text>
+  </g>
+</svg>
