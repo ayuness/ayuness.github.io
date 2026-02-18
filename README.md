@@ -1,56 +1,70 @@
-# Portfolio - Adolfo Yunes Silva
+# Hi — I'm Adolfo Yunes Silva 👋
 
-Sitio web personal (single-page) creado con HTML, CSS y JavaScript vanilla. Está diseñado para ser moderno, limpio y profesional — listo para desplegar en GitHub Pages o Netlify.
+I’m a dedicated Data Science student at ITAM (Mexico City), graduating December 2026. I combine strong analytical foundations, programming skills, and a teamwork-first mindset to turn data into actionable insights. I’m motivated, reliable, and prepared to put in extra effort to meet project goals — especially in areas that bridge economics, finance and sports analytics.
 
-Estructura de carpetas
+Open to internships and entry-level roles in Data Science, Analytics, and related fields.
 
-```
-My_Webb/
-  index.html        # Página principal
-  styles.css        # Estilos organizados por secciones
-  script.js         # Animaciones e interactividad (reveal, smooth scroll, form)
-  assets/
-    avatar.svg      # Placeholder para tu foto (reemplazar por tu foto profesional)
-  README.md         # Este archivo
-```
+---
 
-Cómo personalizar (rápido)
+## 🔎 Quick profile
 
-- Reemplaza `assets/avatar.svg` por tu foto profesional (square). Para mantener el círculo, sube una imagen cuadrada y reemplaza el `src` en `index.html`.
-- Abre `index.html` y actualiza cualquier texto: tagline, párrafos en About, descripciones de proyectos y experiencia.
-- Para añadir proyectos: edita la sección `#projects` — cada `.project-card` es un placeholder.
-- Cambia el enlace de LinkedIn y el email si lo necesitas (ya están configurados según tu información).
-- Si usas Font Awesome vía kit, reemplaza `yourkitid.js` por tu kit; si prefieres CDN, descomenta el link al CSS de Font Awesome en `index.html`.
+- Location: Mexico City
+- Degree: BSc in Data Science — ITAM (expected graduation: December 2026)
+- Contact: [adolfoyunes1@gmail.com](mailto:adolfoyunes1@gmail.com) · [LinkedIn](https://linkedin.com/in/adolfoyunes)
 
-Despliegue rápido
+---
 
-- GitHub Pages:
-  1. Inicializa git: `git init` (si no hay repo)
-  2. Añade, commitea y sube al repositorio en GitHub.
-  3. En GitHub repo -> Settings -> Pages -> selecciona la rama `main` y la carpeta `/`.
+## 🛠️ Technical skills
 
-- Netlify:
-  1. Conecta tu repo de GitHub en Netlify.
-  2. Selecciona la rama `main` y publica. No se requieren build commands para este sitio (sitio estático).
+- 💻 Programming: Python · Java · R · HTML
+- 🗄️ Databases: SQL · NoSQL
+- 🔧 Tools: Git · Excel · DataGrip · Tableau · Shiny
+- 📊 Areas: Machine Learning · Statistics · Data Visualization · Predictive Modeling
 
-Notas técnicas
+_I focus on building robust, reproducible workflows that produce clear visualizations and business-ready insights._
 
-- El formulario de contacto usa `mailto:` para abrir el cliente de correo por defecto; si prefieres una integración con un backend o servicio (Formspree, Netlify Forms), dímelo y lo agrego.
-- Animaciones: `IntersectionObserver` para revelar secciones al hacer scroll.
-- Tipografía: usa `Inter` desde Google Fonts. Puedes cambiar a `Poppins` si prefieres.
+---
 
-Buenas prácticas al desplegar
+## 🎓 Education & timeline
 
-- Sustituye la imagen placeholder por una foto profesional en alta resolución (optimiza a ~200KB).
-- Añade tu favicon en `index.html` si lo deseas.
-- Revisa enlaces externos (LinkedIn) y el kit de Font Awesome.
+- Bachelor of Science in Data Science — ITAM (2022 — Dec 2026 expected)
+  - Relevant coursework: Machine Learning, Probability, Statistics, Database Management, Programming
 
-Si quieres, continuo con:
+---
 
-- Reemplazar el placeholder del avatar por tu foto y ajustar estilos.
-- Añadir ejemplos reales de 2-3 proyectos con imágenes, enlaces y badges.
-- Integrar Netlify Forms o Formspree para formulario de contacto persistente.
+## 📜 Certifications
 
---
-Creado para: Adolfo Yunes Silva — Data Science Student at ITAM
-# My_Webb
+- Introduction to Data Science — HarvardX
+- Certificate in Advanced English (CAE) — Cambridge
+- Entrepreneurship: Theory and Practice — UCL Summer School
+
+---
+
+## 🔭 Currently working on
+
+- Building and refining a portfolio of data science projects (Python, SQL, ML pipelines).
+- Improving interactive visualizations using Tableau and Shiny.
+- Preparing applied analyses focused on economics and financial markets.
+
+If you'd like to see code snippets or project write-ups, check the pinned repos on my profile or reach out — I’ll be happy to share more details.
+
+---
+
+## 🤝 How I work
+
+- Team player: I enjoy collaborating with researchers, engineers and domain experts to shape the right questions.
+- Detail-oriented: I validate assumptions, test models, and document decisions to ensure reproducibility.
+- Results-driven: I prioritize work that leads to measurable impact and clearer decision-making.
+
+---
+
+## 📫 Contact
+
+- Email: [adolfoyunes1@gmail.com](mailto:adolfoyunes1@gmail.com)
+- LinkedIn: https://linkedin.com/in/adolfoyunes
+
+Feel free to connect — I’m open to collaborations, internships, and opportunities where I can contribute with data-driven insights.
+
+---
+
+*Last updated: February 2026*
