@@ -42,18 +42,5 @@ document.addEventListener('DOMContentLoaded', function(){
 
   document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
 
-  // Contact form: build mailto link to open email client (static-friendly)
-  const form = document.getElementById('contact-form');
-  if(form){
-    form.addEventListener('submit', function(e){
-      e.preventDefault();
-      const name = encodeURIComponent(form.name.value.trim());
-      const email = encodeURIComponent(form.email.value.trim());
-      const message = encodeURIComponent(form.message.value.trim());
-  const subject = encodeURIComponent('Contact from portfolio — ' + (name||'Interested'));
-  const body = encodeURIComponent(`Name: ${decodeURIComponent(name)}%0D%0AEmail: ${decodeURIComponent(email)}%0D%0A%0D%0A${decodeURIComponent(message)}`);
-      // Open default mail client
-      window.location.href = `mailto:adolfoyunes1@gmail.com?subject=${subject}&body=${body}`;
-    })
-  }
+  // Contact form was removed from the page; contact section now only displays direct contact information.
 });
