@@ -65,5 +65,53 @@ document.addEventListener('DOMContentLoaded', function(){
     });
   }
 
+  // Adjust the specific project title (.project-title--smaller) to be as large as possible
+  // while staying on a single line. This measures the element and increases font-size
+  // until it would overflow, then steps back one pixel. Runs on load and on resize.
+  function fitProjectTitleToOneLine(){
+    const el = document.querySelector('.project-title--smaller');
+    if(!el) return;
+    // Ensure it doesn't wrap
+    el.style.whiteSpace = 'nowrap';
+    el.style.display = 'block';
+
+    const parentWidth = el.parentElement ? el.parentElement.clientWidth : el.clientWidth;
+    // Start from current computed font-size + 1px
+    const cs = window.getComputedStyle(el);
+    const currentSize = parseFloat(cs.fontSize) || 16;
+    let size = Math.max(currentSize + 1, 12);
+    el.style.fontSize = size + 'px';
+
+    // Increase until it overflows, but cap to prevent runaway sizing
+    const CAP = 200; // px
+    while(size < CAP){
+      // If content width fits within parent, try increasing
+      if(el.scrollWidth <= parentWidth){
+        size += 1;
+        el.style.fontSize = size + 'px';
+        // If after increasing it now overflows, step back
+        if(el.scrollWidth > parentWidth){
+          size -= 1;
+          el.style.fontSize = size + 'px';
+          break;
+        }
+      } else {
+        // If it already overflows at starting size, reduce until it fits
+        size -= 1;
+        if(size < 8) break;
+        el.style.fontSize = size + 'px';
+        if(el.scrollWidth <= parentWidth) break;
+      }
+    }
+  }
+
+  // Run on load and resize (debounced)
+  fitProjectTitleToOneLine();
+  let fitTimeout;
+  window.addEventListener('resize', ()=>{
+    clearTimeout(fitTimeout);
+    fitTimeout = setTimeout(fitProjectTitleToOneLine, 120);
+  });
+
   // Contact form was removed from the page; contact section now only displays direct contact information.
 });

@@ -1,4 +1,4 @@
-#I'm Adolfo Yunes Silva 
+# I'm Adolfo Yunes Silva 
 
 I’m a dedicated Data Science student at ITAM (Mexico City), graduating December 2026. I combine strong analytical foundations, programming skills, and a teamwork-first mindset to turn data into actionable insights. I’m motivated, reliable, and prepared to put in extra effort to meet project goals — especially in areas that bridge economics, finance and sports analytics.
 
