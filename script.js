@@ -42,5 +42,28 @@ document.addEventListener('DOMContentLoaded', function(){
 
   document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
 
+  // Ensure the fixed header height is exposed as a CSS variable so anchors and padding work correctly
+  function updateHeaderHeight(){
+    const header = document.querySelector('.site-header');
+    if(!header) return;
+    const h = header.offsetHeight || 68;
+    document.documentElement.style.setProperty('--header-height', h + 'px');
+  }
+  // Run on load and when resizing
+  updateHeaderHeight();
+  window.addEventListener('resize', updateHeaderHeight);
+
+  // Header will remain fixed and visible; no hide-on-scroll behavior.
+  // Update header height variable if nav toggle is used (mobile)
+  const navToggleBtn = document.querySelector('.nav-toggle');
+  if(navToggleBtn){
+    navToggleBtn.addEventListener('click', ()=>{
+      const header = document.querySelector('.site-header');
+      if(!header) return;
+      const h = header.offsetHeight || 68;
+      document.documentElement.style.setProperty('--header-height', h + 'px');
+    });
+  }
+
   // Contact form was removed from the page; contact section now only displays direct contact information.
 });
