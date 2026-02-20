@@ -62,7 +62,10 @@
         <div class="hero-right">
           <!-- Circular avatar placeholder -->
           <div class="avatar-wrap">
-            <img src="assets/avatar.svg" alt="Avatar of Adolfo Yunes" class="avatar" />
+            <picture>
+              <source srcset="images/profile.webp" type="image/webp">
+              <img src="images/profile.jpg" alt="Adolfo Yunes Silva" class="avatar" />
+            </picture>
           </div>
         </div>
       </div>
@@ -211,9 +214,15 @@
           </div>
           <div class="project-card">
             <img src="assets/project3.svg" class="project-thumb" alt="Project 3: Machine Learning" />
-            <h3 class="project-title--smaller">2026 World Cup Winner Prediction</h3>
+            <h3>2026 World Cup Winner Prediction</h3>
           <a class="repo-link" href="https://github.com/ayuness/WorldCupWinnerPrediction" title="World-Cup-Prediction">View Repository</a>
           <p class="muted">(in process) Machine Learning pipelines, model training and evaluation in order to predict the champion.</p>
+          </div>
+          <div class="project-card">
+            <img src="assets/project4.svg" class="project-thumb" alt="Project 4: Public Policy evaluation" />
+            <h3>Cosechando Agua Evaluation</h3>
+          <a class="repo-link" href="assets/cosechando-agua.pdf" target="_blank" rel="noopener">View PDF</a>
+          <p class="muted">Se buscó probar la causalidad de Cosechando Agua sobre la pobreza hídrica en la Ciudad de México.</p>
           </div>
         </div>
       </div>

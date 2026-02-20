@@ -64,7 +64,7 @@ main{padding-top:calc(var(--header-height) + 0.5rem)}
 .meta li{color:var(--muted);font-size:.95rem}
 
 .avatar-wrap{display:flex;align-items:center;justify-content:center}
-.avatar{width:220px;height:220px;border-radius:50%;border:6px solid rgba(255,255,255,0.6);box-shadow:var(--shadow);background:#fff}
+.avatar{width:260px;height:260px;border-radius:20px;border:6px solid rgba(255,255,255,0.6);box-shadow:var(--shadow);background:#fff;object-fit:cover;object-position:20% top}
 
 /* Cards */
 .cards{display:grid;gap:1rem}
@@ -83,7 +83,7 @@ main{padding-top:calc(var(--header-height) + 0.5rem)}
 .skill-block{background:var(--card);padding:1rem;border-radius:12px;box-shadow:var(--shadow)}
 
 /* Projects */
-.project-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1rem}
+.project-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-top:1rem}
 .project-card{background:var(--card);padding:1rem;border-radius:12px;box-shadow:var(--shadow)}
 .project-thumb{height:110px;background:linear-gradient(90deg,var(--accent),var(--accent-2));border-radius:8px;margin-bottom:.8rem}
 /* If the project thumb is an <img>, ensure it sizes correctly */
@@ -94,7 +94,7 @@ img.project-thumb{width:100%;height:110px;object-fit:cover;display:block;border-
 .repo-link:hover{opacity:0.9}
 
 /* Small modifier for a single project title (reduce size by ~2px) */
-.project-title--smaller{font-size:calc(1em - 2px)}
+.project-title--smaller{font-size:calc(1em - 1px)}
 
 /* Interests */
 .interests-list{display:flex;gap:1rem;flex-wrap:wrap;list-style:none;padding:0}

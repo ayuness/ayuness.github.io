@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Two-line centered: Public Policy / Evaluation -->
+  <rect width="1200" height="300" rx="12" fill="#F5F5F5"/>
+  <text x="50%" y="42%" dominant-baseline="middle" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="56" fill="#808080" font-weight="900">Public Policy</text>
+  <text x="50%" y="65%" dominant-baseline="middle" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="56" fill="#808080" font-weight="900">Evaluation</text>
+</svg>
